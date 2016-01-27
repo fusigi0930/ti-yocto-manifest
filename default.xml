@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org" alias="yto" />
+  <remote name="github" fetch="https://github.com" alias="yto" />
+  <remote name="openembedded" fetch="git://git.openembedded.org" alias="yto" />
+  <remote name="bitbucket" fetch="https://bitbucket.org" alias="yto" />
+  <default revision="daisy"
+           remote="yocto"
+           />
+  <project path="poky" name="poky" remote="yocto" />
+  <project path="poky/meta-ti" name="meta-ti" remote="yocto" />
+  <project path="poky/meta-qt5" name="meta-qt5/meta-qt5" remote="github" />
+  <project path="poky/meta-openembedded" name="meta-openembedded" remote="openembedded" />
+  <project path="poky/meta-embarcados" name="embarcados/meta-embarcados" remote="bitbucket" />
+</manifest>
