@@ -10,7 +10,7 @@
            />
   <project path="poky" name="poky" remote="yocto" />
   <project path="poky/meta-ti" name="meta-ti" remote="yocto" />
-  <project path="poky/meta-qt5" name="meta-qt5/meta-qt5" remote="github" />
+  <project path="poky/meta-qt5" name="meta-qt5/meta-qt5" remote="github" revision="dizzy" />
   <project path="poky/meta-openembedded" name="meta-openembedded" remote="openembedded" />
   <project path="poky/meta-embarcados" name="embarcados/meta-embarcados" remote="bitbucket" />
 </manifest>
