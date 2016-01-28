@@ -10,7 +10,6 @@
            />
   <project path="poky" name="poky" remote="yocto" />
   <project path="poky/meta-ti" name="meta-ti" remote="yocto" />
-  <project path="poky/meta-qt4" name="meta-qt4" remote="yocto" revision="refs/tags/2.1_M1" />
   <project path="poky/meta-openembedded" name="meta-openembedded" remote="openembedded" />
   <project path="poky/meta-embarcados" name="embarcados/meta-embarcados" remote="bitbucket" />
 </manifest>

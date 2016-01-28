@@ -14,7 +14,7 @@ sudo apt-get install git-core gnupg flex bison gperf build-essential \
 * get yocto source like these commands:
 mkdir yocto
 cd yocto
-repo init -u https://github.com/fusigi0930/ti-yocto-manifest.git -b master
+repo init -u https://github.com/fusigi0930/ti-yocto-manifest.git -b qt4-qws
 repo sync
 cp .repo/manifest/init-branch.sh .
 ./init-branch.sh .repo/manifest.xml yto
@@ -23,7 +23,7 @@ cp .repo/manifest/init-branch.sh .
 source oe-init-build-env build-1.6
 cp ${YOCTO_ROOT}/.repo/manifests/bblayers.conf conf/
 cp ${YOCTO_ROOT}/.repo/manifests/local.con conf/
-bitbake qt5-image-demo
+bitbake qt4e-demo-image
 
 then~ please happy to wait the build process completed!
 
