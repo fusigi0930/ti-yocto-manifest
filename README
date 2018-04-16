@@ -17,7 +17,7 @@ cd yocto
 repo init -u https://github.com/fusigi0930/ti-yocto-manifest.git -b master
 repo sync
 cp .repo/manifest/init-branch.sh .
-./init-branch.sh .repo/manifest.xml yto
+./init-branch.sh ./repo/manifest.xml
 
 * build yocto (you need in yocto folder, and set yocto path to a variable YOCTO_ROOT)
 source oe-init-build-env build-1.6
